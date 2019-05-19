@@ -1,0 +1,27 @@
+{
+  "name": "my_service",
+  "version": "1.0.0",
+  "description": "lambda crud",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t.nishimura",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.458.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kitsunecat/lambda_crud.git"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "bugs": {
+    "url": "https://github.com/kitsunecat/lambda_crud/issues"
+  },
+  "homepage": "https://github.com/kitsunecat/lambda_crud#readme"
+}
