@@ -1,13 +1,13 @@
 'use strict';
 
-const todosCreate = require('./todos-create.js');
-const todosReadAll = require('./todos-read-all.js');
-const todosReadOne = require('./todos-read-one.js');
-const todosUpdate = require('./todos-update.js');
-const todosDelete = require('./todos-delete.js');
+const voootesCreate = require('./voootes-create.js');
+const voootesReadAll = require('./voootes-read-all.js');
+const voootesReadOne = require('./voootes-read-one.js');
+const voootesUpdate = require('./voootes-update.js');
+const voootesDelete = require('./voootes-delete.js');
 
 module.exports.create = (event, context, callback) => {
-  todosCreate(event, (error, result) => {
+  voootesCreate(event, (error, result) => {
     const response = {
       statusCode: 200,
       headers: {
@@ -21,7 +21,7 @@ module.exports.create = (event, context, callback) => {
 };
 
 module.exports.readAll = (event, context, callback) => {
-  todosReadAll(event, (error, result) => {
+  voootesReadAll(event, (error, result) => {
     const response = {
       statusCode: 200,
       headers: {
@@ -35,7 +35,7 @@ module.exports.readAll = (event, context, callback) => {
 };
 
 module.exports.readOne = (event, context, callback) => {
-  todosReadOne(event, (error, result) => {
+  voootesReadOne(event, (error, result) => {
     const response = {
       statusCode: 200,
       headers: {
@@ -49,7 +49,7 @@ module.exports.readOne = (event, context, callback) => {
 };
 
 module.exports.update = (event, context, callback) => {
-  todosUpdate(event, (error, result) => {
+  voootesUpdate(event, (error, result) => {
     const response = {
       statusCode: 200,
       headers: {
@@ -63,7 +63,7 @@ module.exports.update = (event, context, callback) => {
 };
 
 module.exports.delete = (event, context, callback) => {
-  todosDelete(event, (error, result) => {
+  voootesDelete(event, (error, result) => {
     const response = {
       statusCode: 200,
       headers: {

@@ -7,12 +7,12 @@
 
 ## end points
 ### index
-- curl https://url/todos
+- curl https://url/voootes
 ### show
 -	curl https://url/{id}
 ### create
-- curl -X POST https://url/todos --data '{"key" : "data"}'
+- curl -X POST https://url/voootes --data '{"key" : "data"}'
 ### update
-- curl -X PUT https://url/todos/{id} --data '{"key" : "data"}'
+- curl -X PUT https://url/voootes/{id} --data '{"key" : "data"}'
 ### delete
-- curl -X DELETE https://url/todos/{id}
+- curl -X DELETE https://url/voootes/{id}
